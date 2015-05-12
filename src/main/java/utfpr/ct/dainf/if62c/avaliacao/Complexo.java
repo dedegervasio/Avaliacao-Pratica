@@ -76,8 +76,8 @@ public class Complexo {
         
         ro = Math.sqrt(Math.sqrt( Math.pow(real, 2) + Math.pow(img, 2) ));
         
-        raizes[0] = new Complexo(ro*Math.cos(fi/2) , ro*Math.cos(fi/2));
-        raizes[1] = new Complexo(ro*Math.cos((fi/2) + Math.PI) , ro*Math.cos((fi/2) + Math.PI));
+        raizes[0] = new Complexo(ro*Math.cos(fi/2) , ro*Math.sin(fi/2));
+        raizes[1] = new Complexo(ro*Math.cos((fi/2) + Math.PI) , ro*Math.sin((fi/2) + Math.PI));
         
         return raizes;
     }
