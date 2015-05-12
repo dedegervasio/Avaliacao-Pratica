@@ -45,7 +45,7 @@ public class Complexo {
     
     // implementar prod(Complexo)
     public Complexo prod(Complexo c) {
-        return new Complexo((real * c.real) - (img * c.img), (img * c.real) - (real * c.img));
+        return new Complexo((real * c.real) - (img * c.img), (img * c.real) + (real * c.img));
     }
     
     // implementar div(Complexo)
